@@ -1,0 +1,380 @@
+
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+@font-face {
+    font-family: Fink-Heavy;
+    src: url("fonts/FinkHeavy.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Nintendo;
+    src: url("fonts/nintendoP_Humming-E_002pr.otf") format("opentype");
+}
+
+body {
+    cursor: url(file:///Users/deannapham/Documents/DeannaWebsite/cursor/cursor.png),auto;
+}
+
+figcaption {
+  color: #48433b;
+  font-size: 15px;
+  font-family: 'Nintendo'
+}
+ figure {
+   display: flex;
+   flex: center;
+ }
+
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+.right {
+ float: right;
+ padding: 0 20px 20px 0;
+}
+
+.left {
+ float: left;
+ padding: 0 20px 20px 0;
+}
+
+body {
+  background-color: #D4E6B5;
+}
+
+p {
+  color: #48433b;
+  font-size: 15px;
+  -webkit-text-stroke: 0px #48433b;
+     color: none;
+     text-shadow:
+         3px 3px 0 #D4E6B5,
+       -1px -1px 0 #D4E6B5,
+        1px -1px 0 #D4E6B5,
+        -1px 1px 0 #D4E6B5,
+         1px 1px 0 #D4E6B5;
+           font-family: 'Nintendo'
+}
+
+h1 {
+  color: #48433b;
+  font-size: 50px;
+  -webkit-text-stroke: 1px #48433b;
+     color: #d9c299;
+     text-shadow:
+         3px 3px 0 #48433b,
+       -1px -1px 0 #48433b,
+        1px -1px 0 #48433b,
+        -1px 1px 0 #48433b,
+         1px 1px 0 #48433b;
+  font-family: 'Fink-Heavy'
+}
+
+h2 {
+  color: #48433b;
+  font-size: 70px;
+  text-align: center;
+  -webkit-text-stroke: 1px #48433b;
+     color: #d9c299;
+     text-shadow:
+         3px 3px 0 #48433b,
+       -1px -1px 0 #48433b,
+        1px -1px 0 #48433b,
+        -1px 1px 0 #48433b,
+         1px 1px 0 #48433b;
+  font-family: 'Fink-Heavy'
+}
+
+h2 {
+   position: relative;
+   text-align: center;
+   top: -250px;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%;
+}
+
+h3 {
+  color: #48433b;
+  font-size: 30px;
+  font-family: 'Fink-Heavy'
+}
+
+h3 {
+   position: relative;
+   text-align: center;
+   top: -250px;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%;
+}
+
+h4 {
+   position: relative;
+   text-align: center;
+   top: -250px;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%;
+}
+
+h4 {
+  color: #48433b;
+  font-size: 25px;
+  font-family: 'Fink-Heavy'
+}
+
+h6 {
+  color: #48433b;
+  font-size: 25px;
+  font-family: 'Fink-Heavy'
+}
+
+h5 {
+  color: #48433b;
+  font-size: 35px;
+  -webkit-text-stroke: 1px #48433b;
+     color: #d9c299;
+     text-shadow:
+         3px 3px 0 #48433b,
+       -1px -1px 0 #48433b,
+        1px -1px 0 #48433b,
+        -1px 1px 0 #48433b,
+         1px 1px 0 #48433b;
+  font-family: 'Fink-Heavy'
+}
+
+li {
+  color: #48433b;
+  font-size: 15px;
+  font-family: 'Nintendo'
+}
+
+.undies {
+  font-size: 30px;
+}
+
+.main-footer {
+  padding: 0;
+  margin: 0;
+  background-color: #AFC97E;
+  text-align: center;
+}
+
+hr.lines {
+  border-top: 4px dashed #877B66;
+  border-bottom: 0px solid #D4E6B5;
+}
+
+hr.cutting-edge {
+  border-top: 2px solid #877B66;
+  border-bottom: 0px solid #D4E6B5;
+}
+
+/* circle of life */
+.rotate {
+  animation: rotation 20s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
+
+div {
+  position: relative;
+  display: inline;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.link-hover:hover {
+  cursor: url(file:///Users/deannapham/Documents/DeannaWebsite/cursor/cursor.png),auto;
+}
+
+/* buttons please send help */
+*{
+  box-sizing: border-box;
+  padding: 10;
+  margin: 10px;
+}
+
+.button{
+  font-family: 'Nintendo'
+}
+
+.container{
+  display: flex;
+  height: 100%
+  align-items: center;
+  justify-content: center;
+}
+
+.button{
+  display: flex;
+flex-direction: row;
+}
+
+.btn{
+  text-decoration: none;
+  position: relative;
+}
+
+.btn-1{
+  text-decoration: none;
+  background: #877B66;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 25px;
+  font-size: 15px;
+  transition: transform 0.3 ease;
+}
+
+.btn-1:hover {
+  transform: translate(-12px, -12px);
+      cursor: url(file:///Users/deannapham/Documents/DeannaWebsite/cursor/cursor.png),auto;
+}
+
+.btn-1:after {
+  transform: translate(6px, 6px);
+}
+
+.btn-1:before {
+  transform: translate(12px, 12px);
+}
+
+.btn-2{
+  text-decoration: none;
+  background: #877B66;
+  color: white;
+  border-radius: 10px;
+  padding: 20px 30px;
+  font-size: 15px;
+  transition: transform 0.3 ease;
+}
+
+.btn-2:hover {
+  transform: translate(-12px, -12px);
+      cursor: url(file:///Users/deannapham/Documents/DeannaWebsite/cursor/cursor.png),auto;
+}
+
+.btn-2:after {
+  transform: translate(6px, 6px);
+}
+
+.btn-2:before {
+  transform: translate(12px, 12px);
+}
+
+.btn-3{
+  text-decoration: none;
+  background: #877B66;
+  color: white;
+  border-radius: 10px;
+  padding: 20px 30px;
+  font-size: 15px;
+  transition: transform 0.3 ease;
+}
+
+.btn-3:hover {
+  transform: translate(-12px, -12px);
+      cursor: url(file:///Users/deannapham/Documents/DeannaWebsite/cursor/cursor.png),auto;
+}
+
+.btn-3:after {
+  transform: translate(6px, 6px);
+}
+
+.btn-3:before {
+  transform: translate(12px, 12px);
+}
+
+.btn-4{
+  text-decoration: none;
+  background: #877B66;
+  color: white;
+  border-radius: 10px;
+  padding: 20px 30px;
+  font-size: 15px;
+  transition: transform 0.3 ease;
+}
+
+.btn-4:hover {
+  transform: translate(-12px, -12px);
+      cursor: url(file:///Users/deannapham/Documents/DeannaWebsite/cursor/cursor.png),auto;
+}
+
+.btn-4:after {
+  transform: translate(6px, 6px);
+}
+
+.btn-4:before {
+  transform: translate(12px, 12px);
+}
+
+.btn-5{
+  text-decoration: none;
+  background: #877B66;
+  color: white;
+  border-radius: 10px;
+  padding: 20px 30px;
+  font-size: 15px;
+  transition: transform 0.3 ease;
+}
+
+.btn-5:hover {
+  transform: translate(-12px, -12px);
+      cursor: url(file:///Users/deannapham/Documents/DeannaWebsite/cursor/cursor.png),auto;
+}
+
+.btn-5:after {
+  transform: translate(6px, 6px);
+}
+
+.btn-5:before {
+  transform: translate(12px, 12px);
+}
+
+.btn-6:hover {
+    background-color:#554e43;
+    transition: 0.5s;
+}
+
+.btn-6{
+text-decoration: none;
+background: #877B66;
+color: white;
+border-radius: 20px;
+padding: 15px 25px;
+font-size: 15px;
+transition: transform 0.3 ease;
+}
+
+/* Gallery Collapsible */
